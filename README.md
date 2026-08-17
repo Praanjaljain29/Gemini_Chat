@@ -1,50 +1,27 @@
-# Gemini Chat Assistant
+# 🤖 Gemini Chat
 
-A lightweight Streamlit chatbot powered by Google's Gemini API.
+A lightweight AI chatbot built with Python, Streamlit, and Google's Gemini API.
 
-## Features
+## 🚀 Live Demo
 
-- Conversational memory
-- Streaming responses
-- System prompts
-- Model selection
-- Response length control
-- Clear chat
-- Error handling
+👉 **[Try Gemini Chat](https://gemini-chat-praanjal.streamlit.app/)**
 
-## Tech Stack
+## ✨ Features
+
+- 💬 Conversational chat
+- 🧠 Conversation memory
+- ⚡ Streaming responses
+- 🎭 Custom system prompts
+- 🤖 Model selection
+- 🎚️ Maximum response length control
+- 🧹 Clear chat
+- 🛡️ Basic error handling
+- 🔐 Secure API key management
+
+## 🛠️ Tech Stack
 
 - Python
 - Streamlit
 - Google Gemini API
-- python-dotenv
-
-## Architecture
-
-User
- ↓
-Streamlit
- ↓
-Session State
- ↓
-Gemini API
- ↓
-Streaming Response
- ↓
-Streamlit UI
-
-## Setup
-
-1. Clone the repository
-2. Create virtual environment
-3. Install dependencies
-4. Add Gemini API key
-5. Run Streamlit
-
-## Environment Variables
-
-GEMINI_API_KEY=your_api_key
-
-## Run
-
-streamlit run app.py
+- `google-genai`
+- `python-dotenv`
